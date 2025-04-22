@@ -5,6 +5,7 @@ import { InitDataPage } from '@/pages/InitDataPage.tsx';
 import { LaunchParamsPage } from '@/pages/LaunchParamsPage.tsx';
 import { ThemeParamsPage } from '@/pages/ThemeParamsPage.tsx';
 import { TONConnectPage } from '@/pages/TONConnectPage/TONConnectPage';
+import { Faq } from '@/pages/Faq';
 
 interface Route {
   path: string;
@@ -39,6 +40,15 @@ export const routes: Route[] = [
           fill="white"
         />
       </svg>
+    ),
+  },
+  {
+    path: '/faq', Component: Faq, title: 'Ответы на вопросы о таролог-боте',
+    icon: (
+        <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M12 18h.01" />
+          <path d="M12 14c1.5 0 2-1.5 2-2s-.5-2-2-2-2-1-2-2 1-2 2-2 2 .5 2 2" />
+        </svg>
     ),
   },
 ];
