@@ -39,7 +39,7 @@ export const Faq = () => {
                                 marginBottom: '1rem',
                                 padding: '1rem',
                                 borderRadius: '12px',
-                                backgroundColor: '#000',
+                                backgroundColor: '#220d3c',
                                 boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
                             }}
                         >
