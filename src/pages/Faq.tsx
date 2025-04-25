@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Page } from '@/components/Page';
 
 export const Faq = () => {
     const faqs = [
@@ -25,30 +26,30 @@ export const Faq = () => {
     ];
 
     return (
-        <div style={{ padding: '1.5rem', fontFamily: 'sans-serif' }}>
-            <h1>Ответы на вопросы о Таро-боте</h1>
-            {faqs.map((item, index) => (
-                <div key={index} style={{marginBottom: '1rem'}}>
-                    <motion.div
-                        initial={{opacity: 0, y: 10}}
-                        animate={{opacity: 1, y: 0}}
-                        transition={{duration: 0.4, delay: index * 0.2}}
-                    >
-                        <div
-                            style={{
-                                marginBottom: '1rem',
-                                padding: '1rem',
-                                borderRadius: '12px',
-                                backgroundColor: '#220d3c',
-                                boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
-                            }}
+        <Page>
+            <div style={{ padding: '1.5rem', fontFamily: 'sans-serif' }}>
+                <motion.div
+                    initial={{opacity: 0, y: 10}}
+                    animate={{opacity: 1, y: 0}}
+                    transition={{duration: 0.4}}
+                >
+                    <h1>Ответы на вопросы о Таро-боте</h1>
+                </motion.div>
+                {faqs.map((item, index) => (
+                    <div key={index} style={{marginBottom: '1rem'}}>
+                        <motion.div
+                            initial={{opacity: 0, y: 10}}
+                            animate={{opacity: 1, y: 0}}
+                            transition={{duration: 0.4, delay: 0.2 + (index * 0.2)}}
                         >
-                            <h3 style={{marginBottom: '0.5rem'}}>{item.question}</h3>
-                            <p style={{margin: 0}}>{item.answer}</p>
-                        </div>
-                    </motion.div>
-                </div>
-                ))}
-        </div>
+                            <div>
+                                <h3 style={{marginBottom: '0.5rem'}}>{item.question}</h3>
+                                <p style={{margin: 0}}>{item.answer}</p>
+                            </div>
+                        </motion.div>
+                    </div>
+                    ))}
+            </div>
+        </Page>
     );
 };

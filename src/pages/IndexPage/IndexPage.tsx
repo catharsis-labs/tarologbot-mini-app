@@ -1,10 +1,10 @@
-import { Section, Cell, Image, List } from '@telegram-apps/telegram-ui';
+import { Section, Cell, List } from '@telegram-apps/telegram-ui'; // Image
 import type { FC } from 'react';
 
 import { Link } from '@/components/Link/Link.tsx';
 import { Page } from '@/components/Page.tsx';
 
-import tonSvg from './ton.svg';
+//import tonSvg from './ton.svg';
 
 export const IndexPage: FC = () => {
   return (
@@ -12,16 +12,16 @@ export const IndexPage: FC = () => {
       <List>
         <Section
           header="Возможности"
-          footer="Здесь вы можете воспользоваться возможностями, чтобы узнать больше о функциях бота, колодах и картах или тарологии"
+          footer="Здесь вы можете узнать больше о функциях бота, колодах и картах или тарологии"
         >
-          <Link to="/ton-connect">
+          {/*{<Link to="/ton-connect">
             <Cell
               before={<Image src={tonSvg} style={{ backgroundColor: '#3a2a5c' }}/>}
-              //subtitle="Connect your TON wallet"
+              subtitle="Connect your TON wallet"
             >
               TON Connect
             </Cell>
-          </Link>
+          </Link>}*/}
         </Section>
         <Section
           header="Полезные вкладки"
@@ -37,7 +37,16 @@ export const IndexPage: FC = () => {
             <Cell subtitle="Telegram application palette information">Theme Parameters</Cell>
           </Link>*/}
           <Link to="/faq">
-            <Cell subtitle="Ответы на вопросы о боте">Ответы на вопросы о боте</Cell>
+            <Cell subtitle="Сборник коротких вопросов-ответов">Ответы на вопросы о боте</Cell>
+          </Link>
+          <Link to="/layouts">
+            <Cell subtitle="Здесь сборник всех раскладов, которые может сделать бот">Расклады</Cell>
+          </Link>
+          <Link to="/decks">
+            <Cell subtitle="Здесь сборник всех колод карт, которые можно выбрать">Колоды</Cell>
+          </Link>
+          <Link to="/test">
+            <Cell subtitle="test">test</Cell>
           </Link>
         </Section>
       </List>

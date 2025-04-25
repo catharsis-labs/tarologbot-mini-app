@@ -7,6 +7,14 @@ import { IndexPage } from '@/pages/IndexPage/IndexPage';
 //import { TONConnectPage } from '@/pages/TONConnectPage/TONConnectPage';
 import { Faq } from '@/pages/Faq';
 
+import { Layouts } from '@/pages/Layouts';
+
+
+import { Decks } from '@/pages/Decks';
+import { RiderWaite } from "@/pages/Decks/RiderWaite.tsx";
+
+import {Test} from "@/pages/Decks/Test.tsx";
+
 interface Route {
   path: string;
   Component: ComponentType;
@@ -51,4 +59,8 @@ export const routes: Route[] = [
         </svg>
     ),
   },
+  { path: '/decks', Component: Decks, title: 'Колоды' },
+  { path: '/layouts', Component: Layouts, title: 'Расклады' },
+  { path: '/decks/rider–waite', Component: RiderWaite, title: 'Таро Райдера — Уайта' },
+  { path: '/test', Component: Test, title: 'Тест' },
 ];

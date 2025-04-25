@@ -102,8 +102,8 @@
       },
       {
         "id": 9,
-        "name": "./rider-waite/Отшельник",
-        "image": "9-hermit.webp",
+        "name": "Отшельник",
+        "image": "./rider-waite/9-hermit.webp",
         "keywords": ["самоанализ", "одиночество", "руководство"],
         "meaning": {
           "upright": "Самоанализ, поиск истины, одиночество, наставничество",
@@ -113,8 +113,8 @@
       },
       {
         "id": 10,
-        "name": "./rider-waite/Колесо Фортуны",
-        "image": "10-wheel-of-fortune.webp",
+        "name": "Колесо Фортуны",
+        "image": "./rider-waite/10-wheel-of-fortune.webp",
         "keywords": ["судьба", "циклы", "перемены"],
         "meaning": {
           "upright": "Удача, судьба, циклы, поворотные моменты",
@@ -135,8 +135,8 @@
       },
       {
         "id": 12,
-        "name": "./rider-waite/Повешенный",
-        "image": "12-hanged-man.webp",
+        "name": "Повешенный",
+        "image": "./rider-waite/12-hanged-man.webp",
         "keywords": ["жертва", "переоценка", "сдача"],
         "meaning": {
           "upright": "Жертва, новая перспектива, сдача, пауза",
@@ -146,8 +146,8 @@
       },
       {
         "id": 13,
-        "name": "./rider-waite/Смерть",
-        "image": "13-death.webp",
+        "name": "Смерть",
+        "image": "./rider-waite/13-death.webp",
         "keywords": ["конец", "переход", "трансформация"],
         "meaning": {
           "upright": "Конец цикла, переход, трансформация, освобождение",
@@ -249,7 +249,7 @@
         {
           "id": 22,
           "name": "Туз Жезлов",
-          "image": "./rider-waite/68-ace-of-wands.webp",
+          "image": "./rider-waite/22-ace-of-wands.webp",
           "keywords": ["творчество", "вдохновение", "потенциал"],
           "meaning": {
             "upright": "Творческое начало, вдохновение, энергия, потенциал",
@@ -259,7 +259,7 @@
         {
           "id": 23,
           "name": "Двойка Жезлов",
-          "image": "./rider-waite/69-two-of-wands.webp",
+          "image": "./rider-waite/23-two-of-wands.webp",
           "keywords": ["планирование", "решение", "предвидение"],
           "meaning": {
             "upright": "Планирование будущего, выбор направления, исследование возможностей",
@@ -269,7 +269,7 @@
         {
           "id": 24,
           "name": "Тройка Жезлов",
-          "image": "./rider-waite/70-three-of-wands.webp",
+          "image": "./rider-waite/24-three-of-wands.webp",
           "keywords": ["прогресс", "расширение", "удача"],
           "meaning": {
             "upright": "Расширение горизонтов, успех в начинаниях, уверенность в будущем",
@@ -279,7 +279,7 @@
         {
           "id": 25,
           "name": "Четверка Жезлов",
-          "image": "./rider-waite/71-four-of-wands.webp",
+          "image": "./rider-waite/25-four-of-wands.webp",
           "keywords": ["праздник", "успех", "гармония"],
           "meaning": {
             "upright": "Радость, завершение этапа, достижение целей, семейная гармония",
@@ -289,7 +289,7 @@
         {
           "id": 26,
           "name": "Пятерка Жезлов",
-          "image": "./rider-waite/72-five-of-wands.webp",
+          "image": "./rider-waite/26-five-of-wands.webp",
           "keywords": ["конфликт", "соревнование", "напряжение"],
           "meaning": {
             "upright": "Конкуренция, борьба за признание, тренировка навыков",
@@ -299,7 +299,7 @@
         {
           "id": 27,
           "name": "Шестерка Жезлов",
-          "image": "./rider-waite/73-six-of-wands.webp",
+          "image": "./rider-waite/27-six-of-wands.webp",
           "keywords": ["победа", "признание", "успех"],
           "meaning": {
             "upright": "Триумф, общественное признание, достижение целей",
@@ -309,7 +309,7 @@
         {
           "id": 28,
           "name": "Семерка Жезлов",
-          "image": "./rider-waite/74-seven-of-wands.webp",
+          "image": "./rider-waite/28-seven-of-wands.webp",
           "keywords": ["защита", "стойкость", "борьба"],
           "meaning": {
             "upright": "Отстаивание позиций, борьба за справедливость, сопротивление давлению",
@@ -319,7 +319,7 @@
         {
           "id": 29,
           "name": "Восьмерка Жезлов",
-          "image": "./rider-waite/75-eight-of-wands.webp",
+          "image": "./rider-waite/29-eight-of-wands.webp",
           "keywords": ["движение", "скорость", "развитие"],
           "meaning": {
             "upright": "Быстрое развитие событий, движение вперед, прогресс",
@@ -329,7 +329,7 @@
         {
           "id": 30,
           "name": "Девятка Жезлов",
-          "image": "./rider-waite/76-nine-of-wands.webp",
+          "image": "./rider-waite/30-nine-of-wands.webp",
           "keywords": ["выносливость", "защита", "стойкость"],
           "meaning": {
             "upright": "Стойкость перед трудностями, защита достигнутого, готовность к последнему усилию",
@@ -339,7 +339,7 @@
         {
           "id": 31,
           "name": "Десятка Жезлов",
-          "image": "./rider-waite/77-ten-of-wands.webp",
+          "image": "./rider-waite/31-ten-of-wands.webp",
           "keywords": ["бремя", "ответственность", "напряжение"],
           "meaning": {
             "upright": "Большая ответственность, завершение тяжелого этапа, чувство долга",
@@ -349,7 +349,7 @@
         {
           "id": 32,
           "name": "Паж Жезлов",
-          "image": "./rider-waite/25-page-of-wands.webp",
+          "image": "./rider-waite/32-page-of-wands.webp",
           "keywords": ["вестник", "начало пути", "любопытство"],
           "meaning": {
             "upright": "Новости, новые начинания, энтузиазм, жажда открытий",
@@ -359,7 +359,7 @@
         {
           "id": 33,
           "name": "Рыцарь Жезлов",
-          "image": "./rider-waite/29-knight-of-wands.webp",
+          "image": "./rider-waite/33-knight-of-wands.webp",
           "keywords": ["энергия", "приключение", "инициатива"],
           "meaning": {
             "upright": "Рывок вперед, смелость, стремление к приключениям",
@@ -765,7 +765,7 @@
         {
           "id": 73,
           "name": "Десятка Пентаклей",
-          "image": "./rider-waite/67-ten-of-pentacles.webp",
+          "image": "./rider-waite/73-ten-of-pentacles.webp",
           "keywords": ["наследие", "долгосрочная стабильность", "семья"],
           "meaning": {
             "upright": "Достаток, родовые ценности, материальная безопасность",
@@ -775,7 +775,7 @@
         {
           "id": 74,
           "name": "Паж Пентаклей",
-          "image": "./rider-waite/24-page-of-pentacles.webp",
+          "image": "./rider-waite/74-page-of-pentacles.webp",
           "keywords": ["ученик", "новые начинания", "практичность"],
           "meaning": {
             "upright": "Изучение, развитие навыков, реалистичный подход",
@@ -785,7 +785,7 @@
         {
           "id": 75,
           "name": "Рыцарь Пентаклей",
-          "image": "./rider-waite/28-knight-of-pentacles.webp",
+          "image": "./rider-waite/75-knight-of-pentacles.webp",
           "keywords": ["надежность", "трудолюбие", "постоянство"],
           "meaning": {
             "upright": "Ответственность, стабильность, усердие",
@@ -795,7 +795,7 @@
         {
           "id": 76,
           "name": "Королева Пентаклей",
-          "image": "./rider-waite/32-queen-of-pentacles.webp",
+          "image": "./rider-waite/76-queen-of-pentacles.webp",
           "keywords": ["забота", "дом", "практичность"],
           "meaning": {
             "upright": "Забота, щедрость, финансовая мудрость",
@@ -805,7 +805,7 @@
         {
           "id": 77,
           "name": "Король Пентаклей",
-          "image": "./rider-waite/35-king-of-pentacles.webp",
+          "image": "./rider-waite/77-king-of-pentacles.webp",
           "keywords": ["богатство", "опыт", "достижение"],
           "meaning": {
             "upright": "Материальный успех, лидерство, надежность",
