@@ -16,7 +16,6 @@ interface TarotCard {
         upright: string;
         reversed: string;
     };
-    description?: string;
 }
 
 interface RiderWaiteDeckType {
@@ -51,19 +50,11 @@ const cards = Object.entries(cardImages).map(([path, module]) => {
         index,
         title: cardInfo?.name || `Карта №${index}`,
         image: (module as { default: string }).default,
-        subtitle: cardInfo?.keywords.join(', ') || '',
-        description: cardInfo
-            ? `Прямая: ${cardInfo.meaning.upright}\n\nПеревёрнутая: ${cardInfo.meaning.reversed}`
-            : 'Описание недоступно',
+        subtitle: cardInfo?.keywords,
+        upright: cardInfo?.meaning.upright,
+        reversed: cardInfo?.meaning.reversed,
     };
 }).sort((a, b) => a.index - b.index);
-  /*return {
-    index: parseInt(index),
-    name: name.charAt(0).toUpperCase() + name.slice(1),
-    image: (module as { default: string }).default,
-    description: description,  // Новое поле с описанием
-  };
-}).sort((a, b) => a.index - b.index);*/
 
 export const RiderWaite = () => {
   return (
@@ -88,41 +79,12 @@ export const RiderWaite = () => {
                           image={card.image}
                           title={card.title}
                           subtitle={card.subtitle}
-                          description={card.description}
+                          upright={card?.upright}
+                          reversed={card?.reversed}
                       />
                   </motion.div>
               ))}
           </List>
       </Page>
-      // slider
-      /*<Page>
-        <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
-        >
-          <h1 style={{ padding: '1.5rem', fontFamily: 'sans-serif' }}>Таро Райдера - Уэйта</h1>
-        </motion.div>
-        <List>
-          {cards.map((card, index) => (
-              <motion.div
-                  key={card.index}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.1 + index * 0.05 }}
-              >
-                <Cell
-                    before={<Image src={card.image} style={{ width: 96, height: 160, objectFit: 'cover' }} />}
-                    subtitle={`Карта №${card.index}`}
-                >
-                  <div>
-                    <h3>{card.name}</h3>
-                    <p>{card.description}</p>
-                  </div>
-                </Cell>
-              </motion.div>
-          ))}
-        </List>
-      </Page>*/
   );
 };

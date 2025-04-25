@@ -45,9 +45,6 @@ export const IndexPage: FC = () => {
           <Link to="/decks">
             <Cell subtitle="Здесь сборник всех колод карт, которые можно выбрать">Колоды</Cell>
           </Link>
-          <Link to="/test">
-            <Cell subtitle="test">test</Cell>
-          </Link>
         </Section>
       </List>
     </Page>
